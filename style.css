@@ -1,0 +1,148 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #c87ad1, #fff);
+}
+
+.content, section {
+    margin: auto;
+    position: relative;
+    max-width: 1000px;
+}
+
+header {
+    margin: 10px auto;
+    color: #fff;
+    max-width: 10000px;
+}
+
+.ima1, .ima2 {
+    padding: 10px;
+    color: white;
+}
+
+.ima1 {
+    top: 0;
+    left: 50%;
+    margin: 0;
+    z-index: 1000;
+}
+
+.ima2 {
+    margin: 20px 50px;
+    border-radius: 8px;
+}
+
+.description {
+    color: white;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table img {
+    width: 100px;
+}
+
+table th, table td {
+    padding: 10px;
+}
+
+.ima3, .laptop {
+    background-color: white;
+    border-radius: 20px;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.tabel-scroll {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.tabel-scroll table {
+    min-width: 600px;
+}
+
+.tabel-scroll img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+}
+
+.tonton {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.beli {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tonton button, .beli button, .form button {
+    padding: 10px 20px;
+    background-color: #a652b0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(225, 225, 225, 0.25);
+    width: 100%;
+    text-align: center;
+}
+
+.baris {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.baris img {
+    width: 200px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: auto;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.toko, .form {
+    flex: 1;
+    min-width: 300px;
+}
+
+.form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
